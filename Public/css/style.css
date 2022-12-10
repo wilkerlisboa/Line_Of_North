@@ -3,15 +3,82 @@
     padding: 0;
 }
 body{
-    background: white;
+
+}
+header{
+    width: 100%;
+    height: 88vh;
+}
+nav{
+    width: 100%;
+    height: 13%;
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+li{
+    margin: 0% 0% 0% 6%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
 }
 .image{
-    background: url(../icon/error-404.png);
-    width: 513px;
-    height: 513px;
+    width: 40%;
+    height: 87%;
+    margin: 0% 0% 0% 51%;
+    background-image: url("../image/Produto_N_14/Moleca\ Knit\ \(2\).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title_of_home_page{
+    margin-left: -113%;
+    margin-top: 39%;
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+}
+#description{
+    margin-left: -113%;
+    margin-top: 3%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+#buttons_shop{
+    width: 27%;
+    height: 16%;
+    margin: -4% 0% 0% 6%;
+}
+#button_shop_tenis{
+    width: 44%;
+    height: 45%;
+    cursor: pointer;
+    background: #02DFC9;
+    box-shadow: 0px 19px 37px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border-style: none;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+#button_value{
+    width: 29%;
+    height: 45%;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
 }
