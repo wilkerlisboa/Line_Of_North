@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-
-}
 header{
     width: 100%;
     height: 88vh;
@@ -81,4 +78,53 @@ li{
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
+}
+/*ABOUT OF SITE AND SOME PRODUCTS*/
+.some_product_and_information_about{
+    width: 100%;
+    height: 126vh;
+    background: aqua;
+}
+#first_products{
+    width: 100%;
+    height: 56%;
+    background: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.production_one{
+    width: 22%;
+    height: 76%;
+    cursor: pointer;
+    background: white;
+    border-radius: 4%;
+}
+#image_inside_production_one{
+    width: 100%;
+    height: 68%;
+    border-radius: 4%;
+    background-image: url("../image/Produto_N_19/Mule\ Feminino\ Moleca\ Napa\ Turim\ Milano.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title_of_product{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 7%;
+}
+.value{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #00AD9C;
+    margin-top: 6%;
+    margin-left: 7%;
 }
