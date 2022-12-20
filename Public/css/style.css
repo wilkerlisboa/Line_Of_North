@@ -83,12 +83,12 @@ li{
 /*ABOUT OF SITE AND SOME PRODUCTS*/
 .some_product_and_information_about{
     width: 100%;
-    height: 126vh;
+    height: 367vh;
     background: aqua;
 }
 #first_products{
     width: 100%;
-    height: 56%;
+    height: 20%;
     background: white;
     display: flex;
     flex-direction: row;
