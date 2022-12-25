@@ -185,12 +185,51 @@ Images of Product inside
     letter-spacing: 8px;
 }
 #image_of_short_of_section{
-    width: 36%;
-    height: 79%;
+    width: 81vh;
+    height: 81vh;
     position: absolute;
     transform: rotate(221deg);
     background-image: url(../image/image_of_short/tenis-olympikus-easy-feminino-img-removebg-preview.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#title_one{
+    margin-left: -37%;
+    margin-top: -28%;
+    position: absolute;
+}
+#title_two{
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 48%;
+}
+#title_three{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: -37%;
+}
+#title_four{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 35%;
+}
+.number{
+    position: absolute;
+    margin-left: -20%;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 16.2%;
+    color: #00AD9C;
+}
+.text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.42);
+    margin-top: -5%;
 }
