@@ -1,0 +1,19 @@
+
+#buttons_shop{
+    width: $width;
+    height: $heigth;
+    margin: -9% 0% 0% 6%;
+}
+#button_shop_tenis{
+    width: $width-second;
+    height: $heigth-second;
+    cursor: pointer;
+    background: $first-color;
+    border-radius: $radius;
+    border-style: none;
+    box-shadow: $box-shadow;
+    @include text-button();
+}
+#button_value{
+    @include button-value();
+}
