@@ -1,235 +1,249 @@
-*{
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+#buttons_shop {
+  width: 27%;
+  height: 16%;
+  margin: -9% 0% 0% 6%;
 }
-/* HOME */
-header{
-    width: 100%;
-    height: 88vh;
+
+#button_shop_tenis {
+  width: 44%;
+  height: 45%;
+  cursor: pointer;
+  background: #02DFC9;
+  border-radius: 6px;
+  border-style: none;
+  box-shadow: 0px 19px 37px -3px rgba(0, 0, 0, 0.25);
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 }
-nav{
-    width: 100%;
-    height: 13%;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
-    
+
+#button_value {
+  width: 29%;
+  height: 45%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 }
-li{
-    margin: 0% 0% 0% 6%;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.2em;
+
+.title_of_home_page {
+  margin-left: -113%;
+  margin-top: 18%;
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
 }
-.image{
-    width: 40%;
-    height: 87%;
-    margin: 0% 0% 0% 51%;
-    background-image: url("../image/Produto_N_14/Moleca\ Knit\ \(2\).jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#description {
+  margin-left: -113%;
+  margin-top: 3%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
 }
-.title_of_home_page{
-    margin-left: -113%;
-    margin-top: 39%;
-    display: inline-block;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-}
-#description{
-    margin-left: -113%;
-    margin-top: 3%;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-}
-#buttons_shop{
-    width: 27%;
-    height: 16%;
-    margin: -4% 0% 0% 6%;
-}
-#button_shop_tenis{
-    width: 44%;
-    height: 45%;
-    cursor: pointer;
-    background: #02DFC9;
-    box-shadow: 0px 19px 37px -3px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-    border-style: none;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-}
-#button_value{
-    width: 29%;
-    height: 45%;
-    cursor: pointer;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-}
+
 /*ABOUT OF SITE AND SOME PRODUCTS*/
-.some_product_and_information_about{
-    width: 100%;
-    height: 367vh;
-    background: aqua;
+.some_product_and_information_about {
+  width: 100%;
+  height: 367vh;
 }
-#first_products{
-    width: 100%;
-    height: 20%;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.block_of_product{
-    width: 22%;
-    height: 76%;
-    cursor: pointer;
-    border-radius: 4%;
-    background: white;
-    border-radius: 4%;
-    box-shadow: 0px 7px 26px -10px #9b9b9b;
-}
-/*
 
-Images of Product inside 
+#first_products {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
 
-"ABOUT OF SITE AND SOME ABOUT"
+.block_of_product {
+  width: 22%;
+  height: 76%;
+  cursor: pointer;
+  border-radius: 4%;
+  background: white;
+  box-shadow: 0px 7px 26px -10px #9b9b9b;
+}
 
-*/
-#image_inside_production_one{
-    width: 100%;
-    height: 68%;
-    border-radius: 4%;
-    background-image: url("../image/Produto_N_19/Mule\ Feminino\ Moleca\ Napa\ Turim\ Milano.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#image_inside_production_one {
+  width: 100%;
+  height: 68%;
+  border-radius: 4%;
+  background-image: url("../image/Produto_N_19/Mule Feminino Moleca Napa Turim Milano.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#image_inside_production_two{
-    width: 100%;
-    height: 68%;
-    border-radius: 4%;
-    background-image: url("../image/Produto_N_20/WhatsApp\ Image\ 2021-10-15\ at\ 11.01.22\ \(1\).jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#image_inside_production_two {
+  width: 100%;
+  height: 68%;
+  border-radius: 4%;
+  background-image: url("../image/Produto_N_20/WhatsApp Image 2021-10-15 at 11.01.22 (1).jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#image_inside_production_three{
-    width: 100%;
-    height: 68%;
-    border-radius: 4%;
-    background-image: url("../image/Produto_N_16/Fila\ Float\ Fly.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#image_inside_production_three {
+  width: 100%;
+  height: 68%;
+  border-radius: 4%;
+  background-image: url("../image/Produto_N_16/Fila Float Fly.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#image_inside_production_four{
-    width: 100%;
-    height: 68%;
-    border-radius: 4%;
-    background-image: url("../image/Produto_N_17/Tênis\ Vans\ Old\ Skool\ Clássico.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#image_inside_production_four {
+  width: 100%;
+  height: 68%;
+  border-radius: 4%;
+  background-image: url("../image/Produto_N_17/Tênis Vans Old Skool Clássico.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.title_of_product{
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #000000;
-    margin-left: 7%;
+
+.title_of_product {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+  margin-left: 7%;
 }
-.value{
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    color: #00AD9C;
-    margin-top: 6%;
-    margin-left: 7%;
+
+.value {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #00AD9C;
+  margin-top: 6%;
+  margin-left: 7%;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 88vh;
+}
+header nav {
+  width: 100%;
+  height: 13%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+}
+header li {
+  margin: 0% 0% 0% 6%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+}
+header .image {
+  width: 40%;
+  height: 87%;
+  background: url("../image/Produto_N_14/Moleca Knit (2).jpeg");
+  margin: 0% 0% 0% 51%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*iNFORMATION PAGE */
-.information_the_page{
-    width: 100%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+.information_the_page {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
-#title_of_name_line_of_north{
-    margin-top: -69%;
-    display: inline-block;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    letter-spacing: 8px;
+
+#title_of_name_line_of_north {
+  margin-top: -69%;
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: 8px;
 }
-#image_of_short_of_section{
-    width: 81vh;
-    height: 81vh;
-    position: absolute;
-    transform: rotate(221deg);
-    background-image: url(../image/image_of_short/tenis-olympikus-easy-feminino-img-removebg-preview.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+#image_of_short_of_section {
+  width: 81vh;
+  height: 81vh;
+  position: absolute;
+  transform: rotate(221deg);
+  background: url("../image/image_of_short/tenis-olympikus-easy-feminino-img-removebg-preview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#title_one{
-    margin-left: -37%;
-    margin-top: -28%;
-    position: absolute;
+
+#title_one {
+  margin-left: -37%;
+  margin-top: -28%;
+  position: absolute;
 }
-#title_two{
-    position: absolute;
-    margin-top: -11%;
-    margin-left: 48%;
+
+#title_two {
+  position: absolute;
+  margin-top: -11%;
+  margin-left: 48%;
 }
-#title_three{
-    position: absolute;
-    margin-top: 15%;
-    margin-left: -37%;
+
+#title_three {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: -37%;
 }
-#title_four{
-    position: absolute;
-    margin-left: 48%;
-    margin-top: 35%;
+
+#title_four {
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 35%;
 }
-.number{
-    position: absolute;
-    margin-left: -20%;
-    font-family: 'DM Sans', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 16.2%;
-    color: #00AD9C;
+
+.number {
+  position: absolute;
+  margin-left: -20%;
+  color: #00AD9C;
+  margin-left: -20%;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 16.2%;
 }
-.text{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
-    
-    font-size: 25px;
-    color: rgba(0, 0, 0, 0.42);
-    margin-top: -5%;
+
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.42);
+  margin-top: -5%;
 }
+
+/*# sourceMappingURL=style.css.map */
