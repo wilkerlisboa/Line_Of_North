@@ -1,0 +1,144 @@
+// FIRST FONTS 
+$font: 'DM Sans', sans-serif;
+$style: normal;
+$weight: 500;
+$size: 16px;
+$color-font: #000000;
+$color-background: white;
+$four-color:  #00AD9C;
+$second_weight: 400;
+$weight-button: 600;
+$three-weight-button: 700;
+$four-weight: 800;
+$second_size: 48px;
+$three_size: 15px;
+$four_size: 25px;
+$two-radius: 4%;
+$two-shadow: 0px 7px 26px -10px #9b9b9b;
+// HEADER
+$block_header_width: 100%;
+$block_header_heigth: 88vh;
+$width-some_product_and_information_about: 100%;
+$heigth-some_product_and_information_about: 367vh;
+$width-image: 40%;
+$height_image: 87%;
+$image: url("../image/Produto_N_14/Moleca\ Knit\ \(2\).jpeg");
+$two-image: url("../image/Produto_N_19/Mule\ Feminino\ Moleca\ Napa\ Turim\ Milano.jpeg");
+$three-image: url("../image/Produto_N_20/WhatsApp\ Image\ 2021-10-15\ at\ 11.01.22\ \(1\).jpeg");
+$four-image: url("../image/Produto_N_16/Fila\ Float\ Fly.jpeg");
+$five-image: url("../image/Produto_N_17/Tênis\ Vans\ Old\ Skool\ Clássico.jpg");
+$six-image: url("../image/image_of_short/tenis-olympikus-easy-feminino-img-removebg-preview.png");
+// Variaveis
+$width: 27%;
+$heigth: 16%;
+$width-second: 44%;
+$heigth-second: 45%;
+$three-width: 29%;
+$three-height: 45%;
+$first-color: #02DFC9;
+$box-shadow: 0px 19px 37px -3px rgba(0, 0, 0, 0.25);
+$radius: 6px;
+
+@mixin flex(){
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+@mixin flex-information(){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-of-page-about-and-product(){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+@mixin text_title_of_product(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $second_weight;
+    font-size:$three_size;
+}
+@mixin position-image(){
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin margin-title-home-page(){
+    margin-left: -113%;
+    margin-top: 18%;
+    display: inline-block;
+}
+@mixin margin-description(){
+    margin-left: -113%;
+    margin-top: 3%;
+}
+@mixin text_of_home_page(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $second_weight;
+    font-size: $second_size;
+}
+@mixin text-description(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $second_weight;
+    font-size: $three_size;
+}
+@mixin value(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $three-weight-button;
+    font-size: $three_size;
+    color: $four-color;
+}
+@mixin width-and-heigth-and-radius(){
+    width: 100%;
+    height: 68%;
+    border-radius: $two-radius;
+}
+@mixin text-button(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $weight-button;
+    font-size: $three_size;
+}
+@mixin button-value(){
+    width: $three-width;
+    height: $three-height;
+    font-family: $font;
+    font-style: $style;
+    font-weight: $weight-button;
+    font-size: $three_size;
+}
+@mixin title-name-line-of-north(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $second_size;
+    letter-spacing: 8px;
+}
+@mixin number(){
+    margin-left: -20%;
+    font-family: $font;
+    font-style: $style;
+    font-weight: $four-weight;
+    font-size: $four_size;
+    line-height: 16.2%;
+}
+@mixin font-class-text(){
+    font-family: $font;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $four_size;
+    color: rgba(0, 0, 0, 0.42);
+    margin-top: -5%;
+}
