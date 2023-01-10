@@ -1,0 +1,58 @@
+.title_of_home_page{
+    @include margin-title-home-page();
+    @include text_of_home_page();
+}
+#description{
+    @include margin-description();
+    @include text-description();
+}
+/*ABOUT OF SITE AND SOME PRODUCTS*/
+.some_product_and_information_about{
+    width: $width-some_product_and_information_about;
+    height: $heigth-some_product_and_information_about;
+    
+}
+#first_products{
+    width: 100%;
+    height: 20%;
+    @include flex-of-page-about-and-product();
+}
+.block_of_product{
+    width: 22%;
+    height: 76%;
+    cursor: pointer;
+    border-radius: $two-radius;
+    background: $color-background;
+    box-shadow: $two-shadow;
+}
+// Images of Product inside "ABOUT OF SITE AND SOME ABOUT"
+#image_inside_production_one{
+    @include width-and-heigth-and-radius();
+    background-image: $two-image;
+    @include position-image()
+}
+#image_inside_production_two{
+    @include width-and-heigth-and-radius();
+    background-image:$three-image;
+    @include position-image()
+}
+#image_inside_production_three{
+    @include width-and-heigth-and-radius();
+    background-image: $four-image;
+    @include position-image()
+}
+#image_inside_production_four{
+    @include width-and-heigth-and-radius();
+    background-image: $five-image;
+    @include position-image()
+}
+.title_of_product{
+    @include text_title_of_product();
+    color: #000000;
+    margin-left: 7%;
+}
+.value{
+    @include value();
+    margin-top: 6%;
+    margin-left: 7%;
+}
