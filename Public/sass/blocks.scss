@@ -33,7 +33,7 @@
 }
 #image_inside_production_two{
     @include width-and-heigth-and-radius();
-    background-image:$three-image;
+    background-image: $three-image;
     @include position-image()
 }
 #image_inside_production_three{
@@ -46,6 +46,37 @@
     background-image: $five-image;
     @include position-image()
 }
+#image_inside_production_five{
+    @include width-and-heigth-and-radius();
+    background-image: $seven-image;
+    @include position-image()
+}
+#image_inside_production_six{
+    @include width-and-heigth-and-radius();
+    background-image: $eight-image;
+    @include position-image()
+}
+#image_inside_production_five{
+    @include width-and-heigth-and-radius();
+    background-image: $nine-image;
+    @include position-image()
+}
+#image_inside_production_seven{
+    @include width-and-heigth-and-radius();
+    background-image: $ten-image;
+    @include position-image()
+}
+#image_inside_production_eight{
+    @include width-and-heigth-and-radius();
+    background-image: $eleven-image;
+    @include position-image()
+}
+// SOON 
+// #image_inside_production_nine{
+//     @include width-and-heigth-and-radius();
+//     background-image: $twelve-image;
+//     @include position-image()
+// }
 .title_of_product{
     @include text_title_of_product();
     color: #000000;
