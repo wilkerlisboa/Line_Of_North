@@ -54,7 +54,7 @@ header{
 #title_two{
     position: absolute;
     margin-top: -11%;
-    margin-left: 48%;
+    margin-left: 50%;
 }
 #title_three{
     position: absolute;
@@ -63,7 +63,7 @@ header{
 }
 #title_four{
     position: absolute;
-    margin-left: 48%;
+    margin-left: 50%;
     margin-top: 35%;
 }
 .number{
@@ -74,4 +74,7 @@ header{
 }
 .text{
     @include font-class-text();
+}
+#second_product{
+    @extend #first_products;
 }
