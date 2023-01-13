@@ -296,4 +296,112 @@ header .image {
   margin-top: -5%;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 56vh;
+  background: #02DFC9;
+}
+footer .title_of_footer {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .description_of_footer {
+  margin-top: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+footer .block_of_footer {
+  width: 22%;
+  height: 88%;
+  line-height: 33px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+footer .cart {
+  width: 80%;
+  height: 31%;
+  margin: 39px 0px 0px 0px;
+  background: url("../icon/BANCOS.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .Instagram {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .Facebook {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .Youtube {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .Twitter {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .troca {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .entrega {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .pagament {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .cancelamento {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+footer .compra {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
 /*# sourceMappingURL=style.css.map */
