@@ -13,11 +13,7 @@ header{
         @include flex();
     }li{
         margin: 0% 0% 0% 6%;
-        font-family: $font;
-        font-style: $style;
-        font-weight: $weight;
-        font-size: $size;
-        letter-spacing: 0.2em;
+        @include li_header();
     }
     .image{
         width: $width-image;
@@ -77,4 +73,63 @@ header{
 }
 #second_product{
     @extend #first_products;
+}
+// FOOTER
+footer{
+    @include flex-of-page-about-and-product();
+    width: 100%;
+    height: 56vh;
+    background: $first-color;
+    .title_of_footer{
+        @include text-footer-first();
+    }
+    .description_of_footer{
+        margin-top: 20px;
+        @include text-description();
+    }
+    .block_of_footer{
+        width: 22%;
+        height: 88%;
+        line-height: 33px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+    .cart{
+        width: 80%;
+        height: 31%;
+        margin: 39px 0px 0px 0px;
+        background: url("../icon/BANCOS.png");
+        @include position-image();
+    }
+    .Instagram{
+        @include text-social();
+    }
+    .Facebook{
+        @include text-social();
+    }
+    .Youtube{
+        @include text-social();
+    }
+    .Twitter{
+        @include text-social();
+    }
+    .troca{
+        @include text-social();
+    }
+    .entrega{
+        @include text-social();
+    }
+    .pagament{
+        @include text-social();
+    }
+    .cancelamento{
+        @include text-social();
+    }
+    .compra{
+        @include text-social();
+    }
 }
