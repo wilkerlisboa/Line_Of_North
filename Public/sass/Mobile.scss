@@ -1,8 +1,9 @@
+$mobile-width: 1920px;
 $tablet-width: 918px;
 $desktop-width: 1024px;
 
-@mixin landscape{
-    @media screen and (orientation: landscape){
+@mixin mobile{
+    @media screen and (max-width: #{$mobile-width}){
         @content;
     }
 }
