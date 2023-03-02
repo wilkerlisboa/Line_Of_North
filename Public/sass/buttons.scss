@@ -3,6 +3,14 @@
     width: $width;
     height: $heigth;
     margin: -9% 0% 0% 6%;
+    @include mobile(){
+        display: flex;
+        margin: 96% 0% 0% 34%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 #button_shop_tenis{
     width: $width-second;
@@ -13,7 +21,30 @@
     border-style: none;
     box-shadow: $box-shadow;
     @include text-button();
+    @include mobile(){
+        width: 86%;
+        height: 7%;
+        margin-left: 1rem;
+        position: absolute;
+        background: #02DFC9;
+        border-radius: 6px;
+        border-style: none;
+        box-shadow: 0px 19px 37px -3px rgb(0 0 0 / 25%);
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
 }
 #button_value{
+    @include mobile(){
+        width: 29%;
+        height: 45%;
+        font-family: "DM Sans", sans-serif;
+        margin-top: -9rem;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+    }
     @include button-value();
 }
