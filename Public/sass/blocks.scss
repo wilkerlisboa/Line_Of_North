@@ -1,8 +1,25 @@
 .title_of_home_page{
+    @include mobile(){
+        margin-left: 6%;
+        margin-top: 82%;
+        display: inline-block;
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+    }
     @include margin-title-home-page();
     @include text_of_home_page();
 }
 #description{
+    @include mobile(){
+        margin-left: 6%;
+        margin-top: 3%;
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+    }
     @include margin-description();
     @include text-description();
 }
