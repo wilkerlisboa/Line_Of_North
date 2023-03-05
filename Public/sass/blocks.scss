@@ -27,7 +27,9 @@
 .some_product_and_information_about{
     width: $width-some_product_and_information_about;
     height: $heigth-some_product_and_information_about;
-    
+    @include mobile(){
+        margin-top: 117px
+    }
 }
 #first_products{
     width: 100%;
