@@ -387,7 +387,7 @@ header .image {
 }
 @media screen and (max-width: 415px) {
   #title_one {
-    margin-top: 10%;
+    margin-left: 10%;
     margin-top: -167%;
   }
 }
