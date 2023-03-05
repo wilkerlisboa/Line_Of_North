@@ -4,10 +4,10 @@
   height: 16%;
   margin: -9% 0% 0% 6%;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   #buttons_shop {
     display: flex;
-    margin: 96% 0% 0% 34%;
+    margin: 332px 0% 0% 34%;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -28,7 +28,7 @@
   font-weight: 600;
   font-size: 15px;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   #button_shop_tenis {
     width: 86%;
     height: 7%;
@@ -53,7 +53,7 @@
   font-weight: 600;
   font-size: 15px;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   #button_value {
     width: 29%;
     height: 45%;
@@ -74,7 +74,7 @@
   font-weight: 400;
   font-size: 48px;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   .title_of_home_page {
     margin-left: 6%;
     margin-top: 82%;
@@ -94,7 +94,7 @@
   font-weight: 400;
   font-size: 15px;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   #description {
     margin-left: 6%;
     margin-top: 3%;
@@ -109,6 +109,11 @@
 .some_product_and_information_about {
   width: 100%;
   height: 367vh;
+}
+@media screen and (max-width: 415px) {
+  .some_product_and_information_about {
+    margin-top: 117px;
+  }
 }
 
 #first_products, #second_product {
@@ -244,7 +249,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   body {
     overflow-x: hidden;
     display: flex;
@@ -271,7 +276,7 @@ header nav {
   justify-content: space-between;
   align-content: center;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   header nav {
     width: 100%;
     height: 10%;
@@ -293,7 +298,7 @@ header .icon_instagram {
   background-repeat: no-repeat;
   margin-left: -566%;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   header .icon_instagram {
     display: none;
   }
@@ -306,7 +311,7 @@ header li {
   font-size: 16px;
   letter-spacing: 0.2em;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   header li {
     font-family: "DM Sans", sans-serif;
     font-style: normal;
@@ -324,7 +329,7 @@ header .image {
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 415px) {
   header .image {
     width: 100%;
     height: 42%;
@@ -352,6 +357,12 @@ header .image {
   font-size: 48px;
   letter-spacing: 8px;
 }
+@media screen and (max-width: 415px) {
+  #title_of_name_line_of_north {
+    margin-top: -256%;
+    text-align: center;
+  }
+}
 
 #image_of_short_of_section {
   width: 81vh;
@@ -363,29 +374,34 @@ header .image {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 415px) {
+  #image_of_short_of_section {
+    display: none;
+  }
+}
 
 #title_one {
-  margin-left: -37%;
-  margin-top: -28%;
+  margin-left: 10%;
+  margin-top: -167%;
   position: absolute;
 }
 
 #title_two {
   position: absolute;
-  margin-top: -11%;
-  margin-left: 50%;
+  margin-top: -104%;
+  margin-left: 15%;
 }
 
 #title_three {
   position: absolute;
-  margin-top: 15%;
-  margin-left: -37%;
+  margin-top: -36%;
+  margin-left: 20%;
 }
 
 #title_four {
   position: absolute;
-  margin-left: 50%;
-  margin-top: 35%;
+  margin-top: 42%;
+  margin-left: 20%;
 }
 
 .number {
