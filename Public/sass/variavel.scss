@@ -79,6 +79,10 @@ header{
     margin-top: -69%;
     display: inline-block;
     @include title-name-line-of-north();
+    @include mobile(){
+        margin-top: -256%;
+        text-align: center;
+    }
 }
 #image_of_short_of_section{
     width: 81vh;
@@ -87,26 +91,29 @@ header{
     transform: rotate(221deg);
     background: $six-image;
     @include position-image();
+    @include mobile(){
+        display: none;
+    }
 }
 #title_one{
-    margin-left: -37%;
-    margin-top: -28%;
+    margin-left: 10%;
+    margin-top: -167%;
     position: absolute;
 }
 #title_two{
     position: absolute;
-    margin-top: -11%;
-    margin-left: 50%;
+    margin-top: -104%;
+    margin-left: 15%;
 }
 #title_three{
     position: absolute;
-    margin-top: 15%;
-    margin-left: -37%;
+    margin-top: -36%;
+    margin-left: 20%;
 }
 #title_four{
     position: absolute;
-    margin-left: 50%;
-    margin-top: 35%;
+    margin-top: 42%;
+    margin-left: 20%;
 }
 .number{
     position: absolute;
