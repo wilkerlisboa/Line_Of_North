@@ -11,7 +11,6 @@ body{
         align-content: center;
         justify-content: space-around;
         align-items: center;
-        
     }
 }
 
@@ -96,24 +95,41 @@ header{
     }
 }
 #title_one{
-    margin-left: 10%;
-    margin-top: -167%;
+    margin-left: -37%;
+    margin-top: -28%;
     position: absolute;
+    @include mobile(){
+        margin-top: 10%;
+        margin-top: -167%;
+    }
 }
 #title_two{
     position: absolute;
-    margin-top: -104%;
-    margin-left: 15%;
+    margin-top: -11%;
+    margin-left: 50%;
+    @include mobile(){
+        margin-top: -104%;
+        margin-left: 15%;
+    }
+
 }
 #title_three{
     position: absolute;
-    margin-top: -36%;
-    margin-left: 20%;
+    margin-top: 15%;
+    margin-left: -37%;
+    @include mobile(){
+        margin-top: -36%;
+        margin-left: 20%;
+    }
 }
 #title_four{
     position: absolute;
-    margin-top: 42%;
-    margin-left: 20%;
+    margin-left: 50%;
+    margin-top: 35%;
+    @include mobile(){
+        margin-top: 42%;
+        margin-left: 20%;
+    }
 }
 .number{
     position: absolute;
