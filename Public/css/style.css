@@ -381,27 +381,51 @@ header .image {
 }
 
 #title_one {
-  margin-left: 10%;
-  margin-top: -167%;
+  margin-left: -37%;
+  margin-top: -28%;
   position: absolute;
+}
+@media screen and (max-width: 415px) {
+  #title_one {
+    margin-top: 10%;
+    margin-top: -167%;
+  }
 }
 
 #title_two {
   position: absolute;
-  margin-top: -104%;
-  margin-left: 15%;
+  margin-top: -11%;
+  margin-left: 50%;
+}
+@media screen and (max-width: 415px) {
+  #title_two {
+    margin-top: -104%;
+    margin-left: 15%;
+  }
 }
 
 #title_three {
   position: absolute;
-  margin-top: -36%;
-  margin-left: 20%;
+  margin-top: 15%;
+  margin-left: -37%;
+}
+@media screen and (max-width: 415px) {
+  #title_three {
+    margin-top: -36%;
+    margin-left: 20%;
+  }
 }
 
 #title_four {
   position: absolute;
-  margin-top: 42%;
-  margin-left: 20%;
+  margin-left: 50%;
+  margin-top: 35%;
+}
+@media screen and (max-width: 415px) {
+  #title_four {
+    margin-top: 42%;
+    margin-left: 20%;
+  }
 }
 
 .number {
